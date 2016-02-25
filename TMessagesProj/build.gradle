@@ -86,4 +86,7 @@ android {
         versionCode 719
         versionName "3.4.2"
     }
+    lintOptions {
+        abortOnError false
+    }
 }

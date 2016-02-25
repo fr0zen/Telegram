@@ -89,8 +89,8 @@ public class IntroActivity extends Activity {
             };
         } else {
             icons = new int[]{
-                    R.drawable.intro1,
                     R.drawable.intro2,
+                    R.drawable.intro1,
                     R.drawable.intro3,
                     R.drawable.intro4,
                     R.drawable.intro5,

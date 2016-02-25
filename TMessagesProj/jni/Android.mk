@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-LOCAL_MODULE    := avutil 
+LOCAL_MODULE    := avutil
 
 ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
     LOCAL_SRC_FILES := ./ffmpeg/armv7-a/libavutil.a
@@ -36,7 +36,7 @@ include $(PREBUILT_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE    := avcodec 
+LOCAL_MODULE    := avcodec
 
 ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
     LOCAL_SRC_FILES := ./ffmpeg/armv7-a/libavcodec.a
@@ -54,7 +54,7 @@ include $(PREBUILT_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE    := crypto 
+LOCAL_MODULE    := crypto
 
 ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
     LOCAL_SRC_FILES := ./boringssl/lib/libcrypto_armeabi-v7a.a
@@ -529,7 +529,7 @@ LOCAL_SRC_FILES     += \
 ./utils.c \
 ./image.c \
 ./video.c \
-./gifvideo.cpp \
+./gifvideo. dcpp \
 ./TgNetWrapper.cpp \
 ./NativeLoader.cpp
 

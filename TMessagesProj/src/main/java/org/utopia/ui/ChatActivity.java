@@ -6425,7 +6425,7 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
                 if (actionBar.isActionModeShowed()) {
                     MessageObject messageObject = cell.getMessageObject();
                     if (selectedMessagesIds[messageObject.getDialogId() == dialog_id ? 0 : 1].containsKey(messageObject.getId())) {
-                        view.setBackgroundColor(0x6633b5e5);
+                        view.setBackgroundColor(0x66ff5475);
                         selected = true;
                     } else {
                         view.setBackgroundColor(0);
@@ -7011,7 +7011,7 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
                 boolean disableSelection = false;
                 if (actionBar.isActionModeShowed()) {
                     if (selectedMessagesIds[message.getDialogId() == dialog_id ? 0 : 1].containsKey(message.getId())) {
-                        view.setBackgroundColor(0x6633b5e5);
+                        view.setBackgroundColor(0x66ff5475);
                         selected = true;
                     } else {
                         view.setBackgroundColor(0);
