@@ -268,7 +268,7 @@ public class MessagesController implements NotificationCenter.NotificationCenter
         TLRPC.TL_userForeign_old2 user = new TLRPC.TL_userForeign_old2();
         user.phone = "333";
         user.id = 333000;
-        user.first_name = "Telegram";
+        user.first_name = "Utopia";
         user.last_name = "";
         user.status = null;
         user.photo = new TLRPC.TL_userProfilePhotoEmpty();
@@ -277,7 +277,7 @@ public class MessagesController implements NotificationCenter.NotificationCenter
         user = new TLRPC.TL_userForeign_old2();
         user.phone = "42777";
         user.id = 777000;
-        user.first_name = "Telegram";
+        user.first_name = "Utopia";
         user.last_name = "Notifications";
         user.status = null;
         user.photo = new TLRPC.TL_userProfilePhotoEmpty();
